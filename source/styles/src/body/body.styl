@@ -1,0 +1,39 @@
+.body
+	color: #212131;
+	padding-top: 20px; 
+	padding-left: 70px;
+	&__services
+		margin-left: 30px;
+		margin-top: 20px;
+		span
+			text-transform: uppercase;
+			font-size: 37px;
+			font-weight: bold;
+			&:first-of-type
+				color: red;
+			&:last-of-type
+				margin-left: 20px;
+				color: blue;
+	&__servDesc
+		margin-top: 150px;
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: repeat(4,200px);
+		grid-column-gap: 125px;
+		text-align: center;
+		margin-bottom: 70px;
+		div
+			display: grid;
+			grid-template-rows: 1fr 0.5fr;
+			img 
+				margin-left: 15%;
+			&:nth-child(3)
+				img
+					margin-left: 22%;
+			&:nth-child(2)
+				img
+					margin-left: 20%;
+			span
+				font-size: 1.3em;
+				margin-top: 50px;
+			
