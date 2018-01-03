@@ -1,0 +1,91 @@
+.pricing
+	text-align: center;
+	width: calc(100% + 70px);
+	height: 471px;
+	background-color: input;
+	padding-top: 66px;
+	
+	span
+		display: block;
+		margin-top: 67px; 
+		font-size: 35px;
+		font-weight: bold;
+		text-transform: uppercase;
+	
+	&__items
+		padding-top: 60px;
+		width: calc(100% + 70px);
+		text-align: center;		
+		display: grid;
+		grid-template-rows: 320px;
+		grid-template-columns: repeat(3, 388px)
+		grid-column-gap: 21px;
+		justify-content: space-around;	
+		
+		
+		.firstItem, .secondItem, .thirdItem
+			background-color: #fff;
+			height: 388px;
+			width: 320px;
+			border-radius: 5px;
+				
+		.secondItem
+			position:relative;
+			border-radius: 5px;	
+			
+			button
+				background-color: red;
+			
+			&__status
+				position: absolute;	
+				top: 0;
+				left: 0px;
+				width: 0;
+				height: 0;
+				border-top: 100px solid red; 
+				border-right: 100px solid transparent;	
+				span
+					position: absolute;
+					transform: rotate(-45deg);
+					width: auto;
+					top: -80px;
+					left: 0;
+					
+		
+		span
+			height: 14px;
+			font-size: 14px;
+			display: block;
+			width: 320px;
+			padding: 0;
+			margin: 0;
+			font-weight: normal;
+			padding: 5px 0;
+			
+		&-desc
+			span
+				text-transform: capitalize;
+		
+		&-title	
+			font-weight: normal;
+			padding: 0;
+			margin: 0;
+			display: block;
+			font-size: 1.3em;
+			padding-top: 40px;
+		
+		&-price	
+			font-size: 42px;
+			font-weight: bold;
+			color: red;
+			padding: 42px 0;
+		
+		button
+			display: block;
+			width: 205px;
+			height: 50px;
+			border-radius: 5px;
+			background-color: blue;
+			color: #fff;
+			margin-left: calc( 50% - 102.5px);
+		
