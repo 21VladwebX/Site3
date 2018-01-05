@@ -1,0 +1,90 @@
+.BodyFooter
+	margin-top: 155px;
+	padding-left: 70px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 40% 60%;
+
+	.footerLeft
+		width: 100%;
+		
+		&__title
+			h2
+				text-align: center;
+				text-transform: uppercase;
+				color: blue;
+				font-size: 35px;
+		&__desc
+			padding-top: 59px;
+			padding-bottom: 20px;
+			.first, .second
+				position: relative;
+				
+				span
+					font-size: 1.2em;
+					display: block;
+					width: 360px;
+			
+
+				img 
+					position: absolute;
+					top: -10px;
+					left: 80%;
+					
+				cite
+					display: block;
+					margin-top: 27px;
+					font-weight: bold;
+					color: blue;	
+			.second
+				margin-top: 66px;
+				background-color: input;
+				border-radius: 5px;
+				span 
+					color: red;
+	.footerRight
+		width: 100%;
+		
+		&__title
+			h2
+				text-align: center;
+				text-transform: uppercase;
+				color: red;
+				font-size: 35px;
+		&__img
+			margin-top: 59px;
+			padding-bottom: 20px;
+			position: relative;
+			img 
+				width: 296px;
+				position: absolute;
+				left: 0;
+				top: 0;
+			img:first-of-type
+				left: 20px;
+				top: 10px;	
+				
+			img:nth-of-type(2)
+				left: 240px;
+				top: 80px;
+				
+			img:nth-of-type(3)
+				left: 40px;
+				top: 200px;
+			
+			img:nth-of-type(4)
+				left: 390px;
+				top: 10px;
+				
+			img:nth-of-type(5)
+				left: 330px;
+				top: 190px;
+			
+			a 
+				text-transform: uppercase;
+				color: blue;
+				position: absolute;
+				font-weight: bold;
+				text-decoration: underline;
+				top: 360px;
+				left: 35%;
